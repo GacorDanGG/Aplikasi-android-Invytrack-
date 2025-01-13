@@ -1,0 +1,17 @@
+<resources>
+    <!-- Warna Dasar -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#469FD1</color> <!-- Warna utama -->
+    <color name="light_blue_gray">#F5F9FC</color> <!-- Latar belakang -->
+    <color name="light_gray">#BDBDBD</color> <!-- Teks sekunder -->
+    <color name="green">#4CAF50</color> <!-- Teks angka positif -->
+    <color name="red">#F44336</color> <!-- Teks angka negatif -->
+    <color name="gray">#808080</color> <!-- Tambahkan warna gray -->
+    <color name="biru">#469FD1</color>
+    <color name="birutua">#0386D0</color>
+    <color name="colorLightGray">#EBEBEB</color>
+    <color name="soft_pink">#F1C6D8</color> <!-- Soft Pink -->
+    <color name="soft_yellow">#FFF3B0</color> <!-- Soft Yellow -->
+    <color name="soft_blue">#A0C8FF</color> <!-- Soft Blue -->
+</resources>

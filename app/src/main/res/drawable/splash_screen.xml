@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Warna Biru -->
+    <item android:drawable="@color/blue"/>
+
+    <!-- Logo di Tengah -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logoinvytrack"/>
+    </item>
+</layer-list>

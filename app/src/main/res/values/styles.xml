@@ -1,0 +1,8 @@
+<resources>
+    <!-- Tema SplashScreen -->
+    <style name="Theme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/logoinvytrack</item>
+    </style>
+
+    <style name="Theme_Dialog"></style>
+</resources>

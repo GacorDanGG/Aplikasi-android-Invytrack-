@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <!-- Kiri: Nama Alat dan Kondisi -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!-- Nama Alat -->
+        <TextView
+            android:id="@+id/tv_nama_alat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Nama Alat" />
+
+        <!-- Kondisi -->
+        <TextView
+            android:id="@+id/tv_kondisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:text="Kondisi: Baik" />
+    </LinearLayout>
+
+    <!-- Tengah: Lokasi dan Stok -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:text="Gudang A" />
+
+        <TextView
+            android:id="@+id/tv_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:text="Stok: 20" />
+    </LinearLayout>
+
+    <!-- Kanan: Tombol Edit dan Delete -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Tombol Edit -->
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Edit Item"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:src="@drawable/ic_action_edit"
+            android:visibility="gone" />
+
+        <!-- Tombol Delete -->
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Delete Item"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:src="@drawable/ic_action_delete"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
